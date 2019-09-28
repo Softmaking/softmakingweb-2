@@ -1,0 +1,9 @@
+#clients-logo {
+    flex-direction: row
+}
+
+@media only screen and (max-width: 768px) {
+    #clients-logo div:first-child {
+        display: none
+    }
+}
